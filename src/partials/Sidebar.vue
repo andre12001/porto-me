@@ -94,10 +94,12 @@
       </aside>  
 </template>
 
-'use strict';
+<script setup>
+    'use strict';
 
 $(document).ready(function(){
     $("#data-sidebar-btn").click(function(){
         $("#sidebar").toggleClass("active");
     });
 });
+</script>
